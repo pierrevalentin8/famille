@@ -11,5 +11,5 @@ window.FAMILLE_CONFIG = {
   measurementId: "G-T8VTR7FQKZ"
   },
   // URL HTTPS de la fonction Firebase « api » fournie dans le dossier serveur.
-  apiUrl: ""
+  apiUrl: "https://api-rkiwzdq4ga-ew.a.run.app"
 };
