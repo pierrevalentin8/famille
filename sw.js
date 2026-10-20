@@ -1,4 +1,4 @@
-const CACHE='famille-static-v4';
+const CACHE='famille-static-v5-no-email-confirmation';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
