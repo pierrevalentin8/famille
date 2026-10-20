@@ -1,4 +1,4 @@
-const CACHE='famille-static-v6-mailbox';
+const CACHE='famille-static-v7-colors-numbers';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
