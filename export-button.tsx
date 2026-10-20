@@ -1,4 +1,0 @@
-"use client";
-import {useState} from 'react';
-import {apiFetch} from './lib/client-api';
-export default function ExportButton({path,filename,children}:{path:string;filename:string;children:React.ReactNode}){const [busy,setBusy]=useState(false),[error,setError]=useState('');return <span><button className="secondary" disabled={busy} onClick={async()=>{setBusy(true);setError('');try{const r=await apiFetch(path);if(!r.ok)throw Error('Export impossible. Réessayez.');const url=URL.createObjectURL(await r.blob());const a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}catch(e){setError((e as Error).message)}finally{setBusy(false)}}}>{busy?'Exportation…':children}</button>{error&&<small className="error" role="alert">{error}</small>}</span>}
