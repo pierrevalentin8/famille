@@ -1,4 +1,4 @@
-const CACHE='famille-static-v9-books-agenda';
+const CACHE='famille-static-v10-household-collections';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
