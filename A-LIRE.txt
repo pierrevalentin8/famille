@@ -1,0 +1,12 @@
+CORRECTION DU SITE FAMILLE
+
+Dans GitHub, dépôt famille, ouvrez Add file > Upload files.
+Sélectionnez tous les fichiers de ce dossier et déposez-les directement à la racine du dépôt, sans créer de dossier autour.
+Validez Commit changes. index.html, sw.js et les icônes existantes seront remplacés.
+Conservez firebase-config.js : il n’est pas fourni dans cette correction et votre configuration reste inchangée.
+
+Fichiers à la racine : index.html, sw.js, firebase-config.js, manifest.webmanifest, logo-famille-transparent.png, icon-180.png, icon-192.png, icon-512.png, offline.html.
+
+Cette version n’utilise aucun dossier icons.
+Après publication GitHub Pages, rechargez avec Ctrl+F5.
+L’avertissement mobile-web-app-capable est également corrigé.
