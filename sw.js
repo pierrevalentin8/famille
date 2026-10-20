@@ -1,4 +1,4 @@
-const CACHE='famille-static-v11-member-view';
+const CACHE='famille-static-v12-barcode-scan';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
