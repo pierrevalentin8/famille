@@ -1,4 +1,4 @@
-const CACHE='famille-static-v25-mobile-breadcrumb';
+const CACHE='famille-static-v26-title-checklist';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
