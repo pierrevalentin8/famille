@@ -1,4 +1,4 @@
-const CACHE='famille-static-v22-delete-category';
+const CACHE='famille-static-v23-series-completion';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
