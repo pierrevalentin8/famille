@@ -1,4 +1,4 @@
-const CACHE='famille-static-v18-collection-pdf';
+const CACHE='famille-static-v19-compact-number-bulk';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
