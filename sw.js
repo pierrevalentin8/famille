@@ -1,4 +1,4 @@
-const CACHE='famille-static-v31-creator-year';
+const CACHE='famille-static-v33-clear-book-rows';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
