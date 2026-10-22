@@ -1,4 +1,4 @@
-const CACHE='famille-static-v40-game-dialog-status';
+const CACHE='famille-static-v41-game-license-form';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
