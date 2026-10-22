@@ -1,4 +1,4 @@
-const CACHE='famille-static-v47-book-batch-default-details';
+const CACHE='famille-static-v48-collection-excel-import';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
