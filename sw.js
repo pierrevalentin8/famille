@@ -1,4 +1,4 @@
-const CACHE='famille-static-v42-sealed-games';
+const CACHE='famille-static-v43-license-search';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
