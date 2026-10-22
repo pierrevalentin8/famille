@@ -1,4 +1,4 @@
-const CACHE='famille-static-v43-license-search';
+const CACHE='famille-static-v44-games-default-sort-form';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
