@@ -1,4 +1,4 @@
-const CACHE='famille-static-v49-books-games-chronological';
+const CACHE='famille-static-v50-pop-excel-import';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
