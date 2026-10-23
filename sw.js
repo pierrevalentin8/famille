@@ -1,4 +1,4 @@
-const CACHE='famille-static-v55-import-titles-cursor';
+const CACHE='famille-static-v56-bulk-object-delete';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
