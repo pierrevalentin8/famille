@@ -1,4 +1,4 @@
-const CACHE='famille-static-v57-simple-desktop-collections';
+const CACHE='famille-static-v58-visible-excel-fields';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
