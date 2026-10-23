@@ -1,4 +1,4 @@
-const CACHE='famille-static-v54-unrestricted-excel-columns';
+const CACHE='famille-static-v55-import-titles-cursor';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
