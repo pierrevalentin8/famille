@@ -1,4 +1,4 @@
-const CACHE='famille-static-v62-icons-check-all';
+const CACHE='famille-static-v63-consoles-nested-lists';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
