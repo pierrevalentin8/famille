@@ -1,4 +1,4 @@
-const CACHE='famille-static-v69-direct';
+const CACHE='famille-static-v70-consoles';
 const base=new URL('./',self.location.href);
 const offline=new URL('offline.html',base).href;
 const configPath=new URL('firebase-config.js',base).pathname;
